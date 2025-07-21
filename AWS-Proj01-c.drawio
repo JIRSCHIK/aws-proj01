@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,11 +92,14 @@
         <mxCell id="jKI3WwK4Idhjn3GP2k6v-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds_db_instance;fillColor=#2E73B8;gradientColor=none;" parent="jKI3WwK4Idhjn3GP2k6v-1" vertex="1">
           <mxGeometry x="150" y="80" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UduSSKREU1XTI-g5UzgO-1" value="MASTER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jKI3WwK4Idhjn3GP2k6v-1">
+        <mxCell id="UduSSKREU1XTI-g5UzgO-1" value="MASTER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jKI3WwK4Idhjn3GP2k6v-1" vertex="1">
           <mxGeometry x="130" y="120" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UduSSKREU1XTI-g5UzgO-3" value="WP-BlogAlpha" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jKI3WwK4Idhjn3GP2k6v-1">
-          <mxGeometry x="30" y="30" width="110" height="20" as="geometry" />
+        <mxCell id="rmeI9atsmMPPQTZFse0s-45" value="READ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jKI3WwK4Idhjn3GP2k6v-1">
+          <mxGeometry x="40" y="120" width="55.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UduSSKREU1XTI-g5UzgO-3" value="WP-BlogAlpha" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jKI3WwK4Idhjn3GP2k6v-1" vertex="1">
+          <mxGeometry x="40" y="30" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jKI3WwK4Idhjn3GP2k6v-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="200" y="570" width="40" height="40" as="geometry" />
@@ -105,41 +108,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="30" y="392" />
-              <mxPoint x="30" y="630" />
-              <mxPoint x="180" y="630" />
-              <mxPoint x="180" y="590" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jKI3WwK4Idhjn3GP2k6v-16" value="SbN-WP-Private-DB-01 subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
-          <mxGeometry x="440" y="540" width="230" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="jKI3WwK4Idhjn3GP2k6v-19" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" parent="jKI3WwK4Idhjn3GP2k6v-16" vertex="1">
-          <mxGeometry x="40" y="30" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="UduSSKREU1XTI-g5UzgO-2" value="STANDBY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jKI3WwK4Idhjn3GP2k6v-16">
-          <mxGeometry x="20" y="120" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UduSSKREU1XTI-g5UzgO-4" value="WP-BlogAlpha" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jKI3WwK4Idhjn3GP2k6v-16">
-          <mxGeometry x="90" y="30" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="jKI3WwK4Idhjn3GP2k6v-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ThEpB_MVJTsAIfFqs4QM-5" source="ThEpB_MVJTsAIfFqs4QM-73" target="jKI3WwK4Idhjn3GP2k6v-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="690" y="392" />
-              <mxPoint x="690" y="630" />
-              <mxPoint x="540" y="630" />
-              <mxPoint x="540" y="590" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jKI3WwK4Idhjn3GP2k6v-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="ThEpB_MVJTsAIfFqs4QM-5" source="jKI3WwK4Idhjn3GP2k6v-19" target="ThEpB_MVJTsAIfFqs4QM-72" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="610" as="sourcePoint" />
-            <mxPoint x="230" y="500" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="430" y="590" />
-              <mxPoint x="230" y="500" />
+              <mxPoint x="30" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -148,16 +117,16 @@
             <mxPoint x="460" y="610" as="sourcePoint" />
             <mxPoint x="510" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="590" />
+              <mxPoint x="410" y="590" />
               <mxPoint x="490" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jKI3WwK4Idhjn3GP2k6v-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds_db_instance_standby_multi_az;fillColor=#2E73B8;gradientColor=none;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
-          <mxGeometry x="480" y="620" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-30" value="Reverse&lt;div&gt;Proxy&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="200" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rmeI9atsmMPPQTZFse0s-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds_db_instance_read_replica;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="ThEpB_MVJTsAIfFqs4QM-5">
+          <mxGeometry x="100" y="620" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="ThEpB_MVJTsAIfFqs4QM-4" source="ThEpB_MVJTsAIfFqs4QM-5" target="ThEpB_MVJTsAIfFqs4QM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -211,7 +180,7 @@
         <mxCell id="jKI3WwK4Idhjn3GP2k6v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="jZVaUwOg5UY3L9NAnvdq-71" source="jKI3WwK4Idhjn3GP2k6v-2" target="ThEpB_MVJTsAIfFqs4QM-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-47" value="Blog WordPress em estrutura &lt;i&gt;&#39;tier three&#39;.&lt;/i&gt; Versão &#39;b&#39;." style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-47" value="Blog WordPress em estrutura &lt;i&gt;&#39;tier three&#39;.&lt;/i&gt; Versão &#39;c&#39;." style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="36.5" y="26.5" width="710" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ThEpB_MVJTsAIfFqs4QM-20" edge="1">
