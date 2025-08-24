@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1240" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-31" value="subnet SN-WP-pub-01" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#b85450;fillColor=#f8cecc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;opacity=40;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="30" y="70" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="lvW7LjX7hmLQx3Dtus6A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ThEpB_MVJTsAIfFqs4QM-5" source="ThEpB_MVJTsAIfFqs4QM-66" target="ThEpB_MVJTsAIfFqs4QM-69">
+        <mxCell id="lvW7LjX7hmLQx3Dtus6A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ThEpB_MVJTsAIfFqs4QM-5" source="ThEpB_MVJTsAIfFqs4QM-66" target="ThEpB_MVJTsAIfFqs4QM-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-66" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
@@ -101,13 +101,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvW7LjX7hmLQx3Dtus6A-1" value="subnet SN-WP-pub-02" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#b85450;fillColor=#f8cecc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;opacity=40;" vertex="1" parent="ThEpB_MVJTsAIfFqs4QM-5">
+        <mxCell id="lvW7LjX7hmLQx3Dtus6A-1" value="subnet SN-WP-pub-02" style="sketch=0;outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_subnet;strokeColor=#b85450;fillColor=#f8cecc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;opacity=40;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="440" y="70" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jKI3WwK4Idhjn3GP2k6v-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds_db_instance_standby_multi_az;fillColor=#2E73B8;gradientColor=none;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="480" y="340" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lvW7LjX7hmLQx3Dtus6A-3" value="EFS-WP-DocRoot&lt;div&gt;/var/www/html&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.efs_share;fillColor=#E05243;gradientColor=none;" vertex="1" parent="ThEpB_MVJTsAIfFqs4QM-5">
+        <mxCell id="lvW7LjX7hmLQx3Dtus6A-3" value="EFS-WP-DocRoot&lt;div&gt;/var/www/html&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.efs_share;fillColor=#E05243;gradientColor=none;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="600" y="100" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-69" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;AS-WP-webapp group&lt;/font&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=0;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.groupCenter;grIcon=mxgraph.aws4.group_auto_scaling_group;grStroke=1;strokeColor=#b85450;fillColor=#f8cecc;verticalAlign=top;align=center;dashed=1;spacingTop=25;labelBorderColor=none;dashPattern=8 8;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;gradientColor=none;opacity=30;strokeWidth=2;perimeterSpacing=0;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
@@ -124,6 +124,9 @@
         </mxCell>
         <mxCell id="jKI3WwK4Idhjn3GP2k6v-14" value="WP-webapp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ThEpB_MVJTsAIfFqs4QM-5" vertex="1">
           <mxGeometry x="465" y="132" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5d61ycFWgXbUVlk9KfM8-1" value="Observação: Durante a fase de testes não foi implementado a base de dados de standby para contenção de custos." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="ThEpB_MVJTsAIfFqs4QM-5">
+          <mxGeometry x="420" y="439" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ThEpB_MVJTsAIfFqs4QM-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="ThEpB_MVJTsAIfFqs4QM-4" source="ThEpB_MVJTsAIfFqs4QM-5" target="ThEpB_MVJTsAIfFqs4QM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -149,7 +152,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ThEpB_MVJTsAIfFqs4QM-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="jZVaUwOg5UY3L9NAnvdq-71" source="ThEpB_MVJTsAIfFqs4QM-22" edge="1" target="ThEpB_MVJTsAIfFqs4QM-66">
+        <mxCell id="ThEpB_MVJTsAIfFqs4QM-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="jZVaUwOg5UY3L9NAnvdq-71" source="ThEpB_MVJTsAIfFqs4QM-22" target="ThEpB_MVJTsAIfFqs4QM-66" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="270" as="sourcePoint" />
             <mxPoint x="260" y="270" as="targetPoint" />
